@@ -1,0 +1,232 @@
+/*@media(){*/
+
+    .topRow {
+    display: flex;
+    height: 150px;
+    row-gap: 2px;
+    /*background-color: pink;*/
+    }
+    .topRow > div {
+        background-color:rgb(67, 140, 134);
+        flex: 1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 5px;
+    }
+    .topRow > div:nth-child(2) {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .topRow > div:nth-child(3) {
+        margin-left: 5px;
+        margin-right: 40px;
+    } 
+    .middleBox {
+        display: flex;
+        height: 300px;
+        background-color: rgb(67, 140, 134);
+        flex: 1;
+        margin: 0px 40px 8px 40px;
+        position: relative;
+        z-index: 40;
+    }
+
+    .bottomBox {
+        display: flex;
+        height: 11px;
+        /*background-color: pink;*/
+        background-color: rgb(158, 219, 147);
+        flex: 1;
+        margin-left: 40px;
+        margin-right:40px;
+    }
+
+    .tri {
+        border-top: 120px solid transparent;
+        border-right: 160px solid transparent;
+        border-bottom: 350px solid rgb(77, 117, 77);
+        border-left: 160px solid transparent;
+        /*margin-left: 40px;
+        margin-top: 0px;*/
+        bottom: 0px;
+        right: 80px;
+        position: absolute;
+        z-index: 80;
+    }
+    .tri2 {
+        border-top: 120px solid transparent;
+        border-right: 110px solid transparent;
+        border-bottom: 220px solid rgb(125, 174, 125);
+        border-left: 110px solid transparent;
+        /*margin-left: 40px;
+        margin-top: 0px;*/
+        bottom: 0%;
+        right: 0%;
+        position: absolute;
+        z-index: 120;
+    }
+    .circle1 {
+        width:12%;
+        aspect-ratio: 1;
+        background-color: pink;
+        border-radius: 100%;
+        left: 33%;
+        top: -19%;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 60;
+    }
+    .circle2 {
+        width:12%;
+        aspect-ratio: 1;
+        background-color: rgb(251, 251, 151);
+        border-radius: 100%;
+        left: 20%;
+        top: -40%;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 60;
+    }
+    .circle3 {
+        width:4%;
+        aspect-ratio: 1;
+        background-color: pink;
+        border-radius: 100%;
+        left: 8%;
+        top: -40%;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 60;
+    }
+    .circle4 {
+        width:4%;
+        aspect-ratio: 1;
+        background-color: pink;
+        border-radius: 100%;
+        left: 8%;
+        top: -15%;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 60;
+    }
+    .circle5 {
+        width:4%;
+        aspect-ratio: 1;
+        background-color: pink;
+        border-radius: 100%;
+        left: 42%;
+        top: -35%;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 60;
+    }
+    .circle6 {
+        width: 4%;
+        aspect-ratio: 1;
+        background-color: rgb(251, 251, 151);
+        border-radius: 100%;
+        left: 20%;
+        top: 15%;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 60;
+    }
+
+    .head123 > div {
+        width: 1.5%;
+        aspect-ratio: 1;
+        background-color: black;
+        border-radius: 100%;
+        left: 4%;
+        bottom: 16%;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 160;
+    }
+    .head123 > div:nth-child(2) {
+        width: 1.5%;
+        aspect-ratio: 1;
+        background-color: black;
+        border-radius: 100%;
+        left: 10%;
+        bottom: 16%;
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 160;
+    }
+    .head123 > div:nth-child(3){
+        width: 1.5%;
+        aspect-ratio: 1;
+        background-color: black;
+        border-radius: 100%;
+        left: 16%;
+        bottom: 16%; 
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 160;
+    } 
+    .head123 > div:nth-child(4){
+        width: 1.5%;
+        aspect-ratio: 1;
+        background-color: black;
+        border-radius: 100%;
+        left: 22%;
+        bottom: 16%; 
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 160;
+    } 
+    .head123 > div:nth-child(5){
+        width: 1.5%;
+        aspect-ratio: 1;
+        background-color: black;
+        border-radius: 100%;
+        left: 28%;
+        bottom: 16%; 
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 160;
+    } 
+    .head123 > div:nth-child(6){
+        width: 1.5%;
+        aspect-ratio: 1;
+        background-color: black;
+        border-radius: 100%;
+        left: 34%;
+        bottom: 16%; 
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 160;
+    } 
+    .head123 > div:nth-child(7){
+        width: 1.5%;
+        aspect-ratio: 1;
+        background-color: black;
+        border-radius: 100%;
+        left: 40%;
+        bottom: 16%; 
+        transform: translate(-50%);
+        position: absolute;
+        z-index: 160;
+    } 
+
+.body1 {
+    width: 15px;
+    height: 40px;
+    background-color: black;
+    bottom: 0%;
+    left: 3.5%;
+    position: absolute;
+    z-index: 160;
+} 
+.body2 {
+    width: 15px;
+    height: 40px;
+    background-color: black;
+    bottom: 0%;
+    left: 9.3%;
+    position: absolute;
+    z-index: 160;
+} 
+
